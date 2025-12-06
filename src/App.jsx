@@ -12,11 +12,11 @@ import Login from "./pages/Login";
 import Account from "./pages/Account";
 import PageNotFound from "./pages/PageNotFound";
 import GlobalStyles from "./styles/GlobalStyles";
-import AppLayout from "./ui/Applayout";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { DarkModeProvider } from "./context/DarkModeContext";
+import AppLayout from "./ui/Applayout";
 
 const queryClient = new QueryClient({
   defaultOptions: {
