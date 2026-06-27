@@ -15,6 +15,9 @@ function LoginForm() {
     e.preventDefault();
     if (!email || !password) return;
 
+    console.log(email);
+    console.log(password);
+
     login(
       { email: "jyoti@gmail.com", password: "jyoti12345" },
       {
