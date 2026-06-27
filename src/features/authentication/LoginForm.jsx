@@ -16,13 +16,13 @@ function LoginForm() {
     if (!email || !password) return;
 
     login(
-      { email: "jyoti@gmail.com", password: "jyoti123" },
+      { email: "jyoti@gmail.com", password: "jyoti12345" },
       {
         onSettled: () => {
           setEmail("");
           setPassword("");
         },
-      }
+      },
     );
   }
 
